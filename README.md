@@ -14,7 +14,11 @@ What files do i need?
 
 **The project is open-source, but please consider supporting us and helping us with feature development by purchasing the PCBs from our [Offical Shop](https://theprintingpilot.com) . Thank you!**
 
+---
 
+## **Check out the full step by step instruction video on our youtube channel:**
+
+[![Video Title](https://img.youtube.com/vi/j4tHusDt6y8/0.jpg)](https://www.youtube.com/watch?v=j4tHusDt6y8)
 
 ## **Join Our Discord Server**
 ---
