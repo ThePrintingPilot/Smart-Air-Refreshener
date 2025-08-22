@@ -12,7 +12,7 @@ What files do i need?
 * Precompiled Bin files, OR Yaml file if you want to edit/complie it yourself (Via ESPHome).
 
 
-**The project is open-source, but please consider supporting us and helping us with feature development by purchasing the PCBs from our [Offical Shop](https://theprintingpilot.com) . Thank you!**
+**The project is open-source, but please consider supporting us and helping us with feature developments by purchasing the PCBs from our [Offical Shop](https://theprintingpilot.com) . Thank you!**
 
 ---
 
