@@ -63,3 +63,5 @@ now you can go to your board ip to have some basic webserver controls, or connec
 There is an alternate firmware `ESP32 Firmware/smart-air-freshener-spray-tracker.yaml`, which provides tracking how many sprays are triggered per refil, along with a button to reset the number to 0 when the air freshener is refilled. It will persist the count on reboot of the ESP32 also. Below is an example of how this is then displayed in Home Assistant.
 
 <img src="https://raw.githubusercontent.com/ThePrintingPilot/Smart-Air-Refreshener/refs/heads/main/Pictures/Alternative_Firmware.png" width="310" height="500" />
+
+Also creates a select input which allows for easier automation if you run it in a manual mode, or auto mode (i.e automations should trigger and run)
