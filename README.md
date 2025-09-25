@@ -55,7 +55,6 @@ This is a firmware 1.1.0 update. with the help of @atownsend247 we added the nex
 
 <img src="https://raw.githubusercontent.com/ThePrintingPilot/Smart-Air-Refreshener/refs/heads/main/Pictures/Firmware_1.1.0.png" width="750" height="300" />
 
-Also creates a select input which allows for easier automation if you run it in a manual mode, or auto mode (i.e automations should trigger and run)
 ---
 ## 🖳 **Useage:**  
 after powering the Smart Air Refreshener for the first time, the board will broadcast an AP "Smart-Air-Refreshener". Connect to it via your phone.
