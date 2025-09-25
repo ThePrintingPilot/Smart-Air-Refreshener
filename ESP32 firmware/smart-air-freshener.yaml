@@ -1,7 +1,7 @@
 substitutions:
   name: "smart-air-freshener"
   project_name: "The_Printing_Pilot.Smart_Air_Freshener"
-  project_version: "1.0.0"
+  project_version: "1.1.0"
   CCW: '3'   #To change motor direction chnage this to 3
   CW: '4'    #To change motor direction chnage this to 4
 
@@ -12,7 +12,6 @@ esphome:
    name: "${project_name}"
    version: "${project_version}"
   min_version: 2025.5.0
-
 
 esp32:
   board: esp32-c3-devkitm-1
@@ -59,6 +58,17 @@ switch:
     internal: True
 
   - platform: template
+    name: "Refil"
+    id: refil
+    optimistic: True
+    turn_on_action:
+      - number.set:
+          id: spray_count
+          value: 0
+      - delay: 350ms
+      - switch.turn_off: refil
+        
+  - platform: template
     name: "Spray"
     id: Spray
     optimistic: True
@@ -75,6 +85,18 @@ switch:
       - switch.turn_off: DontUse2
       - switch.turn_off: DontUse1    
       - switch.turn_off: Spray
+      - number.increment:
+          id: spray_count
+
+select:
+  - platform: template
+    name: "mode"
+    id: run_mode
+    options:
+      - "AUTO"
+      - "MANUAL"
+    initial_option: "AUTO"
+    optimistic: true
 
 binary_sensor:
   - platform: gpio
@@ -103,4 +125,17 @@ binary_sensor:
         - delay: 2s
         - switch.turn_on: Spray 
 
+number:
+  - platform: template
+    id: spray_count
+    name: Spray Count
+    optimistic: true
+    restore_value: true
+    min_value: 0
+    max_value: 1000
+    step: 1
 
+sensor:
+  - platform: internal_temperature
+    name: "Internal Temperature"
+    id: ic_temp
