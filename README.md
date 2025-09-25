@@ -44,7 +44,18 @@ To discuss everything about our custom made PCBs or everything 3D printed!
 
 • The Printing Pilot Smart PCB [Link](https://theprintingpilot.com) 
 
+---
+## 🖳 **Firmware 1.1.0:**  
 
+This is a firmware 1.1.0 update. with the help of @atownsend247 we added the next features:
+
+1. Spray Tracking - an autimatic counter, to count the amount of sprays between refils (the counter persist after ESP32 reboot).
+2. Spray Reset Button - Reset the counter when refilling.
+3. Select input which allows for easier automation if you run it in a manual mode, or auto mode (i.e automations should trigger and run)
+
+<img src="https://raw.githubusercontent.com/ThePrintingPilot/Smart-Air-Refreshener/refs/heads/main/Pictures/Alternative_Firmware.png" width="310" height="500" />
+
+Also creates a select input which allows for easier automation if you run it in a manual mode, or auto mode (i.e automations should trigger and run)
 ---
 ## 🖳 **Useage:**  
 after powering the Smart Air Refreshener for the first time, the board will broadcast an AP "Smart-Air-Refreshener". Connect to it via your phone.
