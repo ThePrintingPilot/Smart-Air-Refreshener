@@ -53,7 +53,7 @@ This is a firmware 1.1.0 update. with the help of @atownsend247 we added the nex
 2. Spray Reset Button - Reset the counter when refilling.
 3. Select input which allows for easier automation if you run it in a manual mode, or auto mode (i.e automations should trigger and run)
 
-<img src="https://raw.githubusercontent.com/ThePrintingPilot/Smart-Air-Refreshener/refs/heads/main/Pictures/Alternative_Firmware.png" width="310" height="500" />
+<img src="https://raw.githubusercontent.com/ThePrintingPilot/Smart-Air-Refreshener/refs/heads/main/Pictures/Firmware_1.1.0.png" width="750" height="300" />
 
 Also creates a select input which allows for easier automation if you run it in a manual mode, or auto mode (i.e automations should trigger and run)
 ---
