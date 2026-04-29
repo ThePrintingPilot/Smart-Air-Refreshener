@@ -12,7 +12,7 @@ What files do i need?
 * Precompiled Bin files, OR Yaml file if you want to edit/complie it yourself (Via ESPHome).
 
 
-**The project is open-source, but please consider supporting us and helping us with feature developments by purchasing the PCBs from our [Offical Shop](https://theprintingpilot.com) . Thank you!**
+**The project is open-source, but please consider supporting us and helping us with feature developments by purchasing the PCBs from our [Offical Shop](https://theprintingpilot.com/products/diy-smart-air-refreshener-glade-air-spray-pcb) . Thank you!**
 
 ---
 
@@ -42,7 +42,7 @@ To discuss everything about our custom made PCBs or everything 3D printed!
 ## 🖳 **Parts:**  
 • Glade Air Spray [Link](https://www.amazon.com/dp/B01GHGMO90?ref=ppx_yo2ov_dt_b_fed_asin_title) 
 
-• The Printing Pilot Smart PCB [Link](https://theprintingpilot.com) 
+• The Printing Pilot Smart PCB [Link](https://theprintingpilot.com/products/diy-smart-air-refreshener-glade-air-spray-pcb) 
 
 ---
 ## 🖳 **Firmware 1.1.0:**  
